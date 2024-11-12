@@ -1,0 +1,135 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.bug {
+  color: #8bd674;
+  box-shadow: 0 15px 40px 0 currentColor;
+  background-color: #8bd674;
+}
+
+.dark {
+  color: #75747e;
+  box-shadow: 0 15px 40px 0 currentColor;
+  background-color: #75747e;
+}
+
+.dragon {
+  color: #1582e7;
+  box-shadow: 0 15px 40px 0 currentColor;
+  background-color: #1582e7;
+}
+
+.electric {
+  color: #f2cb55;
+  box-shadow: 0 15px 40px 0 currentColor;
+  background-color: #f2cb55;
+}
+
+.fairy {
+  color: #e98acc;
+  box-shadow: 0 15px 40px 0 currentColor;
+  background-color: #e98acc;
+}
+
+.fighting {
+  color: #eb4971;
+  box-shadow: 0 15px 40px 0 currentColor;
+  background-color: #eb4971;
+}
+
+.fire {
+  color: #ff9448;
+  ;
+  box-shadow: 0 15px 40px 0 currentColor;
+  background-color: #ff9448;
+  ;
+}
+
+.flying {
+  color: #829edb;
+  box-shadow: 0 15px 40px 0 currentColor;
+  background-color: #829edb;
+}
+
+.ghost {
+  color: #6882d4;
+  box-shadow: 0 15px 40px 0 currentColor;
+  background-color: #6882d4;
+}
+
+.grass {
+  color: #8bbe8a;
+  box-shadow: 0 15px 40px 0 currentColor;
+  background-color: #8bbe8a;
+}
+
+.ground {
+  color: #f78551;
+  box-shadow: 0 15px 40px 0 currentColor;
+  background-color: #f78551;
+}
+
+.ice {
+  color: #6bddce;
+  box-shadow: 0 15px 40px 0 currentColor;
+  background-color: #6bddce;
+}
+
+.normal {
+  color: #c5c9d6;
+  ;
+  box-shadow: 0 15px 40px 0 currentColor;
+  background-color: #c5c9d6;
+  ;
+}
+
+.poison {
+  color: #bd5fe9;
+  box-shadow: 0 15px 40px 0 currentColor;
+  background-color: #bd5fe9;
+}
+
+.psychic {
+  color: #ff787a;
+  box-shadow: 0 15px 40px 0 currentColor;
+  background-color: #ff787a;
+}
+
+.rock {
+  color: #d5c895;
+  box-shadow: 0 15px 40px 0 currentColor;
+  background-color: #d5c895;
+}
+
+.steel {
+  color: #4d92b4;
+  box-shadow: 0 15px 40px 0 currentColor;
+  background-color: #4d92b4;
+}
+
+.water {
+  color: #58abf6;
+  box-shadow: 0 15px 40px 0 currentColor;
+  background-color: #58abf6;
+}
